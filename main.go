@@ -1,14 +1,13 @@
 package main
 
 import (
-	"github.com/01-edu/z01"
+	"fmt"
 
-	"piscine"
+	"github.com/cuongvu3009/learn-go/piscine"
 )
 
 func main() {
-	z01.PrintRune(piscine.FirstRune("Hello!"))
-	z01.PrintRune(piscine.FirstRune("Salut!"))
-	z01.PrintRune(piscine.FirstRune("Ola!"))
-	z01.PrintRune('\n')
+	s := "Hello"
+	s = piscine.StrRev(s)
+	fmt.Println(s)
 }
